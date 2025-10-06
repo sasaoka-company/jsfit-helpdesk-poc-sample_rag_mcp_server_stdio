@@ -8,6 +8,7 @@ if ROOT not in sys.path:
     sys.path.insert(0, ROOT)
 
 from rag_core import search, TOP_K
+from config import DEFAULT_TOP_K
 
 
 def test_search_returns_list_and_max_top_k():

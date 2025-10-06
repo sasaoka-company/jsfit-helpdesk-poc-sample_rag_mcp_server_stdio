@@ -23,7 +23,8 @@ log/
 
 # Development tools
 .pytest_cache/
-.vscode/
+.vscode/settings.json
+.vscode/launch.json
 .idea/
 
 # OS-specific
